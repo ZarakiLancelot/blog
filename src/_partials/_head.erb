@@ -5,6 +5,9 @@
 
 <meta name="description" content="<%= metadata.description %>" />
 
+<%= seo %>
+<%= feed_meta %>
+
 <link rel="stylesheet" href="<%= webpack_path :css %>" />
 <script src="<%= webpack_path :js %>" defer></script>
 <%= live_reload_dev_js %>
