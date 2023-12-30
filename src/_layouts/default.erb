@@ -1,15 +1,17 @@
 <!doctype html>
 <html lang="<%= site.locale %>">
   <head>
-    <%= render "head", metadata: site.metadata, title: data.title %>
+    <%= render "head", metadata: site.metadata, title: resource.data.title %>
   </head>
-  <body class="<%= data.layout %> <%= data.page_class %>">
-    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
+  <body class="<%= resource.data.layout %> <%= resource.data.page_class %> bg-white px-6 pt-4 sm:pt-6 pb-24 sm:pb-32 lg:px-8">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
 
-    <main>
-      <%= yield %>
-    </main>
+      <main class="prose-sm sm:prose mx-auto">
+        <%= yield %>
+      </main>
 
-    <%= render "footer", metadata: site.metadata %>
+      <%= render "footer", metadata: site.metadata %>
+    </div>
   </body>
 </html>
