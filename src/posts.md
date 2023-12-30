@@ -1,14 +1,15 @@
 ---
 layout: page
-title: Posts
+title: Mis Publicaciones
+description: "Listado de todas las publicaciones realizadas en mi blog."
+paginate:
+  collection: posts
+  per_page: 5
+  sort_field: date
 ---
 
-<ul>
+<div class="mt-10 space-y-10 border-t border-gray-200 pt-10 not-prose">
   <% collections.posts.resources.each do |post| %>
-    <li>
-      <a href="<%= post.relative_url %>"><%= post.data.title %></a>
-    </li>
+    <%= render Shared::PostItem.new(post: post) %>
   <% end %>
-</ul>
-
-If you have a lot of posts, you may want to consider adding [pagination](https://www.bridgetownrb.com/docs/content/pagination)!
+</div>

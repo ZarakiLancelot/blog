@@ -2,6 +2,12 @@
 layout: default
 ---
 
-<h1><%= data.title %></h1>
+<p><em><%= resource.data.human_date %></em></p>
+<h1><%= resource.data.title %></h1>
+<% resource.data.categories.each do |category| %>
+  <span class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
+    <%= category %>
+  </span>
+<% end %>
 
 <%= yield %>
