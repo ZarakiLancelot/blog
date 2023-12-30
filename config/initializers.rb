@@ -27,6 +27,9 @@ Bridgetown.configure do |config|
   #
   # init :"bridgetown-routes"
   #
+  init :"bridgetown-feed"
+  init :"bridgetown-sitemap"
+  init :"bridgetown-seo-tag"
 
   # We also recommend that if you're using Roda routes you include this plugin
   # so you can get a generated routes list in `.routes.json`. You can then run

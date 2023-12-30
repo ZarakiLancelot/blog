@@ -10,3 +10,8 @@ email: einsen.vasquez.velasquez@gmail.com
 copyright: Derechos Reservados © 2023
 description: >-
   Blog sobre el lenguaje de programación Ruby y otras tecnologías.
+
+twitter:
+  username: devchapin
+  url: https://twitter.com/devchapin
+  card: summary_large_image
