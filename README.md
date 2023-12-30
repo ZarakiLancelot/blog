@@ -1,6 +1,19 @@
 # BLOG Website made with Bridgetown
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dab98bff-4ef4-4ba6-b065-38d764f0b1a4/deploy-status)](https://app.netlify.com/sites/blog-einsen/deploys)
 
 Welcome to my new Blog website! Created with Bridgetown and TailwindCSS.
+
+<h2 align="center">Blog</h2>
+<div align="center">
+  [![bridgetown ~> 1.3.0](https://img.shields.io/static/v1?label=bridgetown&message=1.3.0&color=green&logo=github)](https://github.com/ZarakiLancelot/blog)
+  [![Ruby - >=3.2.2](https://img.shields.io/badge/Ruby->%3D3.2.2-red?logo=ruby&logoColor=white)](https://ruby-lang.org)
+  [![Node.js - >=10.13](https://img.shields.io/badge/Node.js->%3D10.13-blue?logo=node.js&logoColor=white)](https://nodejs.org)
+  [![Yarn - 1](https://img.shields.io/badge/Yarn-1-blue?logo=yarn&logoColor=white)](https://classic.yarnpkg.com)
+
+  [![stars - blog](https://img.shields.io/github/stars/ZarakiLancelot/blog?style=social)](https://github.com/ZarakiLancelot/blog)
+  [![forks - blog](https://img.shields.io/github/forks/ZarakiLancelot/blog?style=social)](https://github.com/ZarakiLancelot/blog)
+  [![License - MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+</div>
 
 ## Table of Contents
 

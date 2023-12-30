@@ -4,8 +4,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: Blog - Einsen
-tagline: Ruby and more...
+title: Blog - EdwinEinsen
+tagline: Ruby y desarrollo de software...
 email: einsen.vasquez.velasquez@gmail.com
+copyright: Derechos Reservados © 2023
 description: >-
-  Blog about Ruby programming language and other technologies.
+  Blog sobre el lenguaje de programación Ruby y otras tecnologías.
