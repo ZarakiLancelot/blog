@@ -1,6 +1,6 @@
-# Bridgetown Website README
+# BLOG Website made with Bridgetown
 
-Welcome to your new Bridgetown website! You can update this README file to provide additional context and setup information for yourself or other contributors.
+Welcome to my new Blog website! Created with Bridgetown and TailwindCSS.
 
 ## Table of Contents
 
