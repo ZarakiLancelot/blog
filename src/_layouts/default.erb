@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="<%= site.locale %>">
+<html lang="<%= site.locale %>" class="">
   <head>
     <%= render "head", metadata: site.metadata, title: resource.data.title %>
   </head>
-  <body class="<%= resource.data.layout %> <%= resource.data.page_class %> bg-white px-6 pt-4 sm:pt-6 pb-24 sm:pb-32 lg:px-8">
+  <body class="<%= resource.data.layout %> <%= resource.data.page_class %> dark:text-white dark:bg-slate-900 bg-white px-6 pt-4 sm:pt-6 pb-24 sm:pb-32 lg:px-8">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
 
-      <main class="prose-sm sm:prose mx-auto">
+      <main class="prose-sm sm:prose mx-auto dark:text-white">
         <%= yield %>
       </main>
 

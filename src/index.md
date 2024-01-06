@@ -1,20 +1,18 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-
 layout: default
 ---
 
-# Bienvenido a mi Blog.
+<h1 class="dark:text-white">Bienvenido a mi Blog.</h1>
 
 Acá podrás encontrar mis apuntes así como lo que he aprendido sobre Ruby y otras tecnologías de mi interés.
 
 Es como una base de datos de conocimiento, así que si lo que ves te puede servir, tómalo y compártelo si crees que a alguien mas también.
 
-### PUBLICACIONES RECIENTES
+<h3 class="dark:text-white">PUBLICACIONES RECIENTES</h3>
 
 Mis últimas publicaciones
 
-<div class="mt-10 space-y-10 border-t border-gray-200 pt-10 not-prose">
+<div class="mt-10 space-y-10 border-t border-gray-200 pt-10 not-prose dark:text-white">
   <% collections.posts.resources[0..4].each do |post| %>
     <%= render Shared::PostItem.new(post: post) %>
   <% end %>
@@ -22,5 +20,7 @@ Mis últimas publicaciones
 
 ----
 
-**Creado por: Edwin Einsen Vásquez Velásquez**
+<div class="dark:text-white">
+  <p>Creado por: Edwin Einsen Vásquez Velásquez</p>
+</div>
 {:style="text-align:center"}
