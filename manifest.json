@@ -1,0 +1,14 @@
+{
+  "manifest_version": 1,
+  "name": "Minimal Manifest",
+  "version": "1.0.0",
+  "description": "Only required fields for a Chrome extension manifest.",
+  "icons": {
+    "48": "src/images/icon_x48.png",
+    "72": "src/images/icon_x72.png",
+    "96": "src/images/icon_x96.png",
+    "128": "src/images/icon_x128.png",
+    "192": "src/images/icon_x192.png",
+    "384": "src/images/icon_x384.png"
+  }
+}

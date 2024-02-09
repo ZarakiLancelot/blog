@@ -17,7 +17,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://developer-chapin.com" # the base hostname & protocol for your site, e.g. https://example.com
 
 permalink: pretty
 template_engine: erb
@@ -25,7 +25,7 @@ template_engine: erb
 lang: es
 defaults:
   - values:
-    image: /images/logo.png
+    image: /images/developer-chapin.png
 
 # Other options you might want to investigate:
 #

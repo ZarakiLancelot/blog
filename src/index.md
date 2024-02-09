@@ -8,7 +8,7 @@ Acá podrás encontrar mis apuntes así como lo que he aprendido sobre Ruby y ot
 
 Es como una base de datos de conocimiento, así que si lo que ves te puede servir, tómalo y compártelo si crees que a alguien mas también.
 
-<h3 class="dark:text-white">PUBLICACIONES RECIENTES</h3>
+<h2 class="dark:text-white">PUBLICACIONES RECIENTES</h2>
 
 Mis últimas publicaciones
 

@@ -2,3 +2,17 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+bridgetown-search-form input {
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+bridgetown-search-results {
+  --link-color: #0f5348;
+  --text-color: #3e3f3a;
+  border-bottom: 1px solid var(--divider-color);
+  padding: 1rem 0;  
+}
