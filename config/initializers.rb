@@ -30,6 +30,12 @@ Bridgetown.configure do |config|
   init :"bridgetown-feed"
   init :"bridgetown-sitemap"
   init :"bridgetown-seo-tag"
+  init :"bridgetown-quick-search"
+
+  # Configure livereload for development
+  if ENV["WATCH"] == "1" || ENV["LIVERELOAD"] == "1"
+    config.livereload = true
+  end
 
   # We also recommend that if you're using Roda routes you include this plugin
   # so you can get a generated routes list in `.routes.json`. You can then run
