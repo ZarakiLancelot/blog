@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Primeros pasos con Ruby: Varibales, Tipos de Datos y Operadores"
+title: "Primeros pasos con Ruby: Variables, Tipos de Datos y Operadores"
 description: "Explorando Ruby con los primeros pasos, información básica de la sintaxis"
 date: 2024-05-28 23:44:32 -0600
 human_date: Mayo 28, 2024
