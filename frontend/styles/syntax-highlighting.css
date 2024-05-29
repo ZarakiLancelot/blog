@@ -11,11 +11,11 @@
 
 pre.highlight {
   padding: 16px;
-  background-color: #F6F8FA;
+  background-color: #2D2D2D;
 }
 
 .highlight .hll { background-color: #ffffcc }
-.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .c { color: #75715e; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { color: #000000; font-weight: bold } /* Keyword */
 .highlight .o { color: #000000; font-weight: bold } /* Operator */
