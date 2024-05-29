@@ -16,3 +16,13 @@ bridgetown-search-results {
   border-bottom: 1px solid var(--divider-color);
   padding: 1rem 0;  
 }
+
+ul.socials {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+ul.socials li {
+  display: inline-block;
+}
