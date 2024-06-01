@@ -39,54 +39,48 @@ Tipos de Datos en Ruby
 Ruby maneja varios tipos de datos básicos que son esenciales para cualquier programa:
 
 1. Números
+   - Enteros (Integer): Representan números enteros, positivos o negativos.
+     ```ruby
+     entero = 42
+     ```
 
--- Enteros (Integer): Representan números enteros, positivos o negativos.
-```ruby
-entero = 42
-```
-
--- Flotantes (Float): Representan números con punto decimal.
-```ruby
-flotante = 3.14
-```
+   - Flotantes (Float): Representan números con punto decimal.
+     ```ruby
+     flotante = 3.14
+     ```
 
 2. Cadenas (String)
-
-Las cadenas son secuencias de caracteres encerradas entre comillas simples o dobles.
-```ruby
-cadena_comillas_simple = 'Hola mundo'
-cadena_comillas_dobles = "Ruby es genial!"
-```
-Más adelante en otra entrada hablaremos de las diferencias y distintos usos entre las comillas simples y dobles, según la necesidad de interpretar el contenido de la cadena. Entender estas diferencias te ayudará a elegir la forma adecuada de definir tus cadenas en diferentes situaciones.
+   - Las cadenas son secuencias de caracteres encerradas entre comillas simples o dobles.
+     ```ruby
+     cadena_comillas_simple = 'Hola mundo'
+     cadena_comillas_dobles = "Ruby es genial!"
+     ```
+     Más adelante en otra entrada hablaremos de las diferencias y distintos usos entre las comillas simples y dobles, según la necesidad de interpretar el contenido de la cadena. Entender estas diferencias te ayudará a elegir la forma adecuada de definir tus cadenas en diferentes situaciones.
 
 3. Símbolos (Symbol)
-
-Los símbolos son inmutables y se utilizan como identificadores o claves en hashes.
-```ruby
-simbolo = :mi_simbolo
-```
+   - Los símbolos son inmutables y se utilizan como identificadores o claves en hashes.
+     ```ruby
+     simbolo = :mi_simbolo
+     ```
 
 4. Booleanos (Boolean)
-
-Los valores booleanos pueden ser `true` o `false`.
-```ruby
-verdadero = true
-falso = false
-```
+   - Los valores booleanos pueden ser <code class="dark:text-white">true</code> o <code class="dark:text-white">false</code>.
+     ```ruby
+     verdadero = true
+     falso = false
+     ```
 
 5. Arrays
-
-Los arrays son listas ordenadas de elementos, que pueden ser de cualquier tipo.
-```ruby
-arreglo = [1, "dos", :tres, 4.0]
-```
+   - Los arrays son listas ordenadas de elementos, que pueden ser de cualquier tipo.
+     ```ruby
+     arreglo = [1, "dos", :tres, 4.0]
+     ```
 
 6. Hashes
-
-Los hashes son colecciones de pares clave-valor.
-```ruby
-hash = {nombre: "Edwin", edad: 40, ciudad: "Guatemala"}
-```
+   - Los hashes son colecciones de pares clave-valor.
+     ```ruby
+     hash = {nombre: "Edwin", edad: 40, ciudad: "Guatemala"}
+     ```
 
 <h2 class="dark:text-white">Operadores en Ruby</h2>
 Ruby ofrece una variedad de operadores para realizar operaciones en variables y valores.
