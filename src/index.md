@@ -10,10 +10,8 @@ Es como una base de datos de conocimiento, así que si lo que ves te puede servi
 
 <h2 class="dark:text-white">PUBLICACIONES RECIENTES</h2>
 
-Mis últimas publicaciones
-
 <div class="mt-10 space-y-10 border-t border-gray-200 pt-10 not-prose dark:text-white">
-  <% collections.posts.resources[0..5].each do |post| %>
+  <% collections.posts.resources[0...3].each do |post| %>
     <%= render Shared::PostItem.new(post: post) %>
   <% end %>
 </div>
